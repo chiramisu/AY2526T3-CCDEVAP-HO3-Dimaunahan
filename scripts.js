@@ -59,6 +59,7 @@ function playAgain(){
     document.getElementById("div-success").style.display = "none";
     score = 0;
     document.getElementById("score").innerHTML = score;
+    document.getElementById("message").innerHTML = "";
 
     generateQuestion();
     document.getElementById("div-questions").style.display = "block";
