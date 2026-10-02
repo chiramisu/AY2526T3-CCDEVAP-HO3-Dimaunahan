@@ -59,5 +59,10 @@ function playAgain(){
     document.getElementById("div-success").style.display = "none";
     score = 0;
     document.getElementById("score").innerHTML = score;
+
     generateQuestion();
+    document.getElementById("div-questions").style.display = "block";
 }
+
+// generate the first question when the page loads
+generateQuestion(); // OHHHHH MY GOD THIS WAS THE ONLY LINE I NEEDED TO FINISH
